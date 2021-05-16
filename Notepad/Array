@@ -1,0 +1,702 @@
+GeeksForGeeks youtube array list: https://www.youtube.com/watch?v=xtfj4-r_Ahs&list=PLqM7alHXFySEQDk2MDfbwEdjd2svVJH9p&index=2&t=0s
+Array:
+=========Array_1=======
+1. Find Union(Merging) and Intersection(common) of two unsorted arrays  --->Done(3 Methods -> Naive, HashSet, Sorting with BinarySearch)
+2. Second largest element in the array in O(n)(Sorted and unsorted). -----> Done[0(n)] --> Bruteforce
+3. Move all zeros to end. ---->Done[0(n)] [Swapping]
+4. Move all odd numbers to end. ---->Done[0(n)] [Swapping]
+5. Rearrange positive and negative numbers ---->Done[0(n)] [Swapping]
+6. Segregate 0's and 1's in an array ---->Done[0(n)] [Swapping]
+7. Segregate 0's, 1's and 2's together in an array[O(n)](Dutch National Flag Problem)
+8. Frequencies of all elements in an array.  ---->Done(HashMap[n, n])
+9. Remove duplicates from sorted and unsorted array. ---->Done(HashMap[n, n], HashSet[n, n], WithExtraSpace[n, n], WithConstantSpace[n, 1])
+10.Find Majority Element(Sorted and unsorted array). ---->Done[O(n) O(l)] --->Morray voting, Sorting(nlogn), HashMap[O(n) O(n)
+11.Leaders in an array. | GeeksforGeeks ---->Done[O(n)] -->Scan from right
+12.Find a peak element | GFG --->Done[NaiveApproach_PrintAllPeakElements(O(n) O(1)) && DivideAndConquer_ReturnOnlyOnePeakElement (O(logn) O(1))]
+13.Given an array A[] and a number x, check for pair in A[] with sum as x, with the indexes of the array elements. (If given array is unsorted and 	sorted(Amazon)), And count pairs also --> 5 solutions
+14.Find a triplet that sum to a given value | GeeksforGeeks --> Similar to Pairs sum. Just wrap same logic inside extra a for loop
+15.Maximum triplet sum in array | GeeksforGeeks --> [The idea is similar to Find a triplet that sum to a given value.]
+16.Pythagorean Triplet in an array | GeeksforGeeks [The idea is similar to Find a triplet that sum to a given valuem, With Sorted and Squared Array]
+17.K’th Smallest/Largest Element in (Sorted and unsorted) | GeeksforGeeks --> [With Sorting ,O(nlogn)]
+18.Find the largest three elements in an array | GeeksforGeeks --> [ScanArray_ComputeMax_secondMAx_ThirdMax() // O(n) O(1), SortArray_Print_LastTreeElements_WithHandlingDuplicates() // O(nlogn-->Sorting) O(1]
+=========Array_2=======
+19.Find missing number in an array(using summation and XOR operation) | GeeksforGeeks  Solutions)
+20.Find the smallest missing number | GeeksforGeeks ---Done(3 Methods)
+21.Two Missing Numbers | https://www.youtube.com/watch?v=75Jrba2uGFM 
+22.Find the minimum distance between two numbers | GeeksforGeeks
+23.Find minimum difference between any two elements | GeeksforGeeks array) | GeeksforGeeks
+
+25.Find a Fixed Point in a given array | GeeksforGeeks
+26.Next greater element (use of stack) | GeeksforGeeks
+28.Zig Zag Array (spiral order array) | GeeksforGeeks
+29.Search an element in sorted and rotated array( Find PIVOT)
+31.ROTATION of an array (METHOD 1 --> REVERSAL Algorithm) (METHOD 2 --> Using temp array) (METHOD 3 --> Rotate one by one) | GeeksforGeeks
+32.Rearrange an array such that ‘arr j ’ becomes ‘i’ if ‘arr i ’ is ‘j’
+33.Find lost element from a duplicated array | GeeksforGeeks
+34.Reverse an array without affecting special characters | GeeksforGeeks
+35.Find a pair with maximum product in array of Integers | GeeksforGeeks
+36.Find the largest pair sum in an unsorted array | GeeksforGeeks
+37.Find the pair in array whose sum is closest to x
+38.Shuffle a given array | GeeksforGeeks
+39.Find the minimum value to be added so that array becomes balanced | GeeksforGeeks
+40.Minimum swaps required to Sort Binary array | GeeksforGeeks
+41.Sort all even numbers in ascending order and odd numbers in descending order | GeeksforGeeks
+42.we have an array 
+   var bdays = ['08-14', '10-04', '04-21'];
+   We want a new array where the birthdays will be in the format: MM/DD. solove this without for loop.
+   Hint: array has different methods
+43.We have an array 
+	var arr = [1.5, 2.56, 5.1, 12.33]; --> round each number up in an array. solove this without for loop.
+44.Write a function to create a new array of only positive values
+	var nums = [-4, 3, 2, -21, 1]; slove using array methods
+45.Create a new array from array of objects that will have string sum of all properties of objects
+	var arr = [
+		{a: 1,b:2},{a:'A',b:'B'},{a:'x',b:'y'},{a:2,b:2}
+	];
+	//Output : '1ax2'
+	//['1Ax2','2By2'];
+46.Find whether an array is subset of another array
+47.k-th missing element in an unsorted array
+48.Find start and ending index of an element in an unsorted array
+49.Search an element in an unsorted array using minimum number of comparisons
+50.Check if array elements are consecutive
+
+
+
+1. Find subarray with given sum | GeeksforGeeks (Amazon)
+4. Find common elements in three sorted arrays | GeeksforGeeks
+5. Maximum sum such that no two elements are adjacent | GeeksforGeeks
+7. Maximum Sum SubArray (Kadane's algorithm) (Largest Sum Contigous SubArray)
+Find smallest subarray with sum greater than a given value
+Find the median of two sorted or unsorted arrays.
+7. Write a program to count Length of cycle in a given array.  Ex: Input: ( [1,2,0],1 )  OutPut: 3
+9. Given an array arr of N integers. Find the contiguous sub-array with maximum sum. [1,2,3,-2,5] // 9
+16.Length of the largest subarray with contiguous elements | Set 1 | GeeksforGeeks
+18.Count Inversions in an array | Set 1 (Using Merge Sort) | GeeksforGeeks (Amazon)
+Largest Sum Contiguous Subarray and K-th Largest Sum Contiguous Subarray | GeeksforGeeks(Amazon)
+10. Count the subarrays having product less than a given value.
+11. Check if two arrays are equal or not
+
+
+2. Cutting a rod problem | GeeksforGeeks
+3. Stock Buy Sell to Maximize Profit | GeeksforGeeks 
+9. Find the subarray with least average | GeeksforGeeks
+12.Find minimum number of merge operations to make an array palindrome | GeeksforGeeks
+14.Count Strictly Increasing Subarrays | GeeksforGeeks
+15.Maximum Length Bitonic Subarray | GeeksforGeeks
+
+
+Applied AI:	
+1. How Many Numbers Are Smaller Than the Current Number: Problem Statement [Leetcode]
+3. Create Target Array in the Given Order: Problem Statement[Leetcode]
+4. Replace Elements with Greatest Element on Right Side: Problem Statement [Leetcode]
+5. Shortest Unsorted Continuous Subarray: Problem Statement [Leetcode]
+6. Search in Rotated Sorted Array
+7. Sort Colors
+9. Increasing Triplet Subsequence
+10.Partition Equal Subset Sum
+11.Array Product Problem
+12.Find two Missing Numbers in a Sequence of Consecutive Numbers
+16.Find Numbers with Even Number of Digits: Problem Statement [Leetcode]
+17.Game of Life: Problem Statement [Leetcode]
+
+
+
+========================================================================================================
+
+Matrix:
+1. Rotton fruits in 2D array
+2. Print Matrix Diagonally (Diagonal order)
+3. Search an element in sorted Matrix( row and column sorted)
+4. Print Matrix in spiral form ( 2-D array)
+5. Minimum Cost Path Problem | GeeksforGeeks
+6. [1 2 3] --> 2 d array of n* n --> add diagonal elements, Function jisme binary digit lega uska corresponding  decimal number batayega or vice versa
+   [4 5 6]
+   [7 8 9]
+7. Print unique rows in a given boolean matrix | GeeksforGeeks (Amazon)
+8. The Celebrity Problem | GeeksforGeeks
+9. Matrix Search(https://www.youtube.com/watch?v=bK7BCWICvpQ&list=PLNmW52ef0uwvmnS0UQU4Qf3NvsEREGWoK&index=7)
+12."Larry has been given a permutation of a sequence of natural numbers incrementing from  as an array. He must determine whether the array can be sorted using the following operation any number of times:
+Choose any 3 consecutive indices and rotate their elements in such a way that ABC->BCA->CAB->ABC.
+for Example, if A = [1,6,5,2,4,3] :
+[1,6,5,2,4,3]        [6,5,2]
+[1,5,2,6,4,3]        [5,2,6]
+[1,2,6,5,4,3]        [5,4,3]
+[1,2,6,3,5,4]        [6,3,5]
+[1,2,3,5,6,4]        [5,6,4]
+[1,2,3,4,5,6] 
+On a new line for each test case, print YES if  can be fully sorted. Otherwise, print NO.
+
+Example: 
+1: 3 1 2 -> rotate(3,1,2) -> [1,2,3]
+2: 1 3 4 2 -> rotate(3,4,2) -> [1,4,2,3]
+3: 1 4 2 3 -> rotate(4,2,3) -> [1,2,3,4]
+"
+20."Group of students sitting in circle and teacher wants to elect a new President, she will walk around the circle while singing song and where the song ends that particular student will be removed and this will be continued till the last student remaining and would be elected as President.
+For Example: There are 4 students n = [1,2,3,4], and the length of song ie k = 2, so first student that has to be removed is 2 and then 4 and then 3, So the student 1 will be the president.
+Following are the test cases and k=testCases[2]
+const testCases = [
+  [1,1,1],
+  [2,2,1],
+  [4,2,1],
+  [100,2,73]
+];"
+
+52.String[][] scores = {{"Bob","85"},{"Mark","100"},{"Charles","63"},{"Mark","34"}};
+  Given a 2D array which contains Student names and scores, write a function which returns the
+  highest average .
+  For the above test case : function should return 85.
+
+Applied AI:
+1. Rotate Matrix by 90 degrees
+2. Set Matrix Zeros: Problem statement [Leetcode]
+3. Count Negative numbers in a sorted matrix: Problem statement [Leetcode]
+4. The K Weakest Rows in a Matrix: Problem Statement [Leetcode]
+========================================================================================================
+
+Sorting:
+1. 
+2. 1,3,2,4,5 half sorted half not what is the complexity through merge sort
+3. KMP string matching algorithm
+4. Reverse an Array without using extra memory space(String reverse)
+5. Sort elements by frequency | Set 1 | GeeksforGeeks
+6. Sort an array in wave form | GeeksforGeeks
+7. Write a function to reverse an array of strings. With and without using array methods.
+8. Topological Sort | GeeksforGeeks(Amazon)
+9. Merge two sorted array into a sorted order.
+10.Find duplicates in sorted and unsorted array.
+11.Remove duplicates from sorted and unsorted array.
+12.Find common elements in three sorted arrays
+13.Print uncommon elements from two sorted arrays
+14.Union and Intersection of two sorted arrays
+15.Heap sortings
+16.Merge sortings
+17.Quick sortings
+18.Minimum number of swaps required to sort an array of first N number
+19.Binary Search (Sorted Array) - O(log n)
+20.Sort Array by Parity: Problem Statement [Leetcode]
+
+36.Write a program to implement Bubble Sort
+37.Write a program to implement Merge Sort
+38.Write a program to implement Quick Sort
+39.Write a program to implement Linear Sort
+
+========================================================================================================
+
+Noraml:
+1. Swap two numbers without using third (temporary) variable.
+2. Check whether the no. is power of two or not. (using bitwise).
+3. How to find biggest palindrome?
+4. Check if a number is palindrome?
+5. 941 => 9+4+1 => 15 => 1+5 = 6
+6. Print the fibonacci series for a given no.
+7. Nth fibonacci no(N can be very big).
+8. Check if a number is prime(Sieve of Eratosthenes). 
+9. Find nth prime no(n can be very big). 
+10.Find all prime number between a given range. 
+11.Find two prime numbers with given sum.
+12.Find the highest occurring digit in prime numbers in a range. 
+13.Program to print all prime factors of a given number  
+14.Largest number with prime digits. 
+15.Prime factors of a big number
+16.Sieve of Eratosthenes ( Algorithm for prime numbers)
+17.Find GCD and LCM?
+18.Convert a decimal number into a binary number and vice-versa?
+19.Deci-Binary number: Given a no, make this no with minimum additions of deci-binary nos.
+	Ex. 21->10+11
+	4-> 1+1+1+1
+20.Find consecutive no whose sum will be equal to given no.
+	Ex. 9 =4+5
+	27 = 13+14,2+3+4+5+6+7,8+9+10
+21.Write a function that would allow you to do this.
+	var addSix = createBase(6);
+	addSix(10); // returns 16
+	addSix(21); // returns 27
+22.Given an range of number, count the numbers which have same first and last digit. (Amazon & GFG)
+	Example: Between 7 and 20 such numbers are : 8,9 and 11.
+23.Suppose there are millions of numbers and you have to print max 20 elements. How will you do that?(GFG)
+24.Largest number that is not a perfect square | GeeksforGeeks
+25.Check if all bits can be made same by single flip
+26.How to find biggest palindrome
+13.Find the max average grade from the given score.
+14.Write a program to count the ways to climb staircase. Max steps to climb stairs 1,2,3.
+15.Egg Dropping Puzzle
+16.Ugly Numbers
+17.Number Formation
+18.Check if a number is power of 10 (i.e.: 1000 it is, 500 is not).
+19.Overlapping rectangles problem
+"A product is sold in a time frame. 1->n sellers are offered with a price.
+ Example:
+ - Seller 1 has an offer from 1pm to 6pm with a price of 20
+ - Seller 2 has an offer from 2pm to 5pm with a price of 15
+ Return a vector with smallest offers in above time slots."
+21."Lily likes to play games with integers. She has created a new game where she determines the difference between a number and its reverse. For instance, given the number 12, its reverse is 21. Their difference is 9. The number 120 reversed is 21 , and their difference is 90.
+She decides to apply her game to decision making. She will look at a numbered range of days and will only go to a movie on a beautiful day.
+
+22.Given a range of numbered days,[i ... j]  and a number k, determine the number of days in the range that are beautiful. Beautiful numbers are defined as numbers where [i-reverse(i)] is evenly divisible by k. If a day's value is a beautiful number, it is a beautiful day. Print the number of beautiful days in the range.
+Function Description:
+beautifulDays has the following parameter(s):
+i: the starting day number
+j: the ending day number
+k: the divisor
+
+Example: 
+Lily may go to the movies on days 20,21,22 and 23. We perform the following calculations to determine which days are beautiful:
+
+Day 20 is beautiful because the following evaluates to a whole number: 20-02/6 = 18/6 = 3
+Day 21 is not beautiful because the following doesn't evaluate to a whole number: 21-12/6 = 9/6 = 1.5
+Day 22 is beautiful because the following evaluates to a whole number: 22-22/6 = 0/6 = 0
+Day 23 is not beautiful because the following doesn't evaluate to a whole number: 23-32/6 = 9/6 = 1.5
+Only two days, 20  and 22, in this interval are beautiful. Thus, we print 2 as our answer.
+
+Input: 20 23 6
+Ouput: 2"
+
+22."Andy wants to play a game with his little brother, Bob. The game starts with an array of distinct integers and the rules are as follows:
+Bob always plays first and the two players move in alternating turns.
+In a single move, a player chooses the maximum element currently present in the array and removes it as well as all the other elements to its right. For example, if the starting array arr =[2,3,5,4,1], then it becomes arr=[2,3] after the first move because we remove the maximum element (i.e., 5) and all elements to its right (i.e., 4 and 1).
+The modifications made to the array during each turn are permanent, so the next player continues the game with the remaining array. The first player who is unable to make a move loses the game.
+Andy and Bob play 'g' games. Given the initial array for each game, find and print the name of the winner on a new line. If Andy wins, print ANDY; if Bob wins, print BOB.
+
+To continue the example above, in the next move Andy will remove 3. Bob will then remove 2 and win because there are no more integers to remove.
+Function Description:
+Complete the gamingArray function. It should return a string that represents the winner, either ANDY or BOB.
+gamingArray has the following parameter(s):
+arr: an array of integers 
+Test cases:
+Test case1: 5 2 6 3 4
+Test case2: 3 1
+Test Result:
+ANDY
+BOB
+For Example:
+Initial array:
+[5 2 6 3 4]
+In the first move, Bob removes 6 and all the elements to its right, resulting in Arr= [5,2]
+In the second move, Andy removes 5 and all the elements to its right, resulting in Arr = []:
+At this point, the array is empty and Bob cannot make any more moves. This means Andy wins, so we print ANDY on a new line. 
+
+50.Position of robot after given movements.
+Given a robot which can only move in four directions, UP(U), DOWN(D), LEFT(L), RIGHT(R). Initial position of robot is at origin(0, 0).
+Given a string consisting of instructions to move. And ignore other non-related characters in input string. Output the co-ordinates of robot after the executing the instructions.
+
+Test Cases:
+            Input : move = "UUU"
+            Output : (0, 3)
+
+            Input : move = "ULDR"
+            Output : (0, 0)
+
+            Input : move = "ULLLDUDUURLRLR"
+            Output : (-2, 2)
+
+            Input : move = "UP LEFT 2xDOWN RIGHT RIGHT UP UP"
+            Output : (1, 1) He stated it’s invalid and He removed this test case.
+
+46.Check if a given sequence of moves for a robot is circular or not
+47.Find winner of an election where votes are represented as candidate names
+
+========================================================================================================
+
+Misc:
+1. Merge Overlapping Intervals | GeeksforGeeks (Amazon)
+2. Merge Intervals
+3. 
+
+========================================================================================================
+
+String:
+1. Given two strings 'abcd' and 'efgc' print characters which are not present in other string. --> Single loop with indexof() method
+2. ['U1,U2', 'U1,U3', 'U2,U1', 'U3,U4'] --> means (U1 & U2) and (U2 & U1)  are friends. Find out unique friends(means do not print element at 3rd index-->'U2,U1')
+3. Find a given word in a sentence O(n).
+4. Reverse all words in a given sentence without using libarary functions.(with prepending)
+5. Number of indexes with equal elements in given range
+6. Total numbers with no repeated digits in a range
+7. Naive Algorithm for Pattern Searching | GeeksforGeeks
+8. Print all permutations of a given string | GeeksforGeeks
+9. You have given two string b and a. you need to find out parent string c of these a and b which is the shortest parent sting. From the parent string we can get both the string 	by   removing some characters without changing the order of the parent. (String problem).
+	A = abc
+	B = abd
+	C = abcd (parent)
+10.String with “3adc12t8”,finding the sum of only numbers in the string like - 3+12+8
+11.Reverse a string?
+12.Print anagrams of a string?
+13.Check whether two strings are anagram of each other?
+14.Reverse a string using stack
+15.Reverse string without using any temporary variable
+16.Return maximum occurring character in an input string | GeeksforGeeks
+17.String matching where one string contains wildcard characters | GeeksforGeeks
+18.Pangram Checking
+19.Missing characters to make a string Pangram
+20.Check if a string is Pangrammatic Lipogram
+21.Removing punctuations from a given string
+22.Program to check if input is an integer or a string
+23.Quick way to check if all the characters of a string are same
+24.Program to find the initials of a name
+25.Find one extra character in a string
+26.Searching Substring in the String
+27.Count Uppercase, Lowercase, special character and numeric values
+28.Find the smallest window in a string containing all characters of another string
+29.Smallest window that contains all characters of string itself
+30.Number of substrings of a string
+31.Count words present in a string
+32.Program to find Smallest and Largest Word in a String
+33.Count consonants in a string (Iterative and recursive methods)
+34.Convert characters of a string to opposite case
+35.Permute a string by changing case
+36.Print all permutations with repetition of characters
+37.Find the first repeated word in a string
+38.Second most repeated word in a sequence
+39.Most frequent word in an array of strings
+40.Remove spaces from a given string
+41.Move spaces to front of string in single traversal
+42.Print all pairs of anagrams in a given array of strings
+43.Remove minimum number of characters so that two strings become anagram
+44.Check if two strings are k-anagrams or not
+45.Check if characters of a given string can be rearranged to form a palindrome
+46.Cost to Balance the parentheses
+47.Mirror characters of a string
+48.Check whether second string can be formed from characters of first string
+49.Caesar Cipher
+50.Print common characters of two Strings in alphabetical order | GeeksforGeeks
+51.Remove minimum number of characters so that two strings become anagram | GeeksforGeeks
+52.Convert the string into palindrome string by changing only one character | GeeksforGeeks
+53.Remove characters from the first string which are present in the second string | GeeksforGeeks
+54.Count words in a given string | GeeksforGeeks
+55.Check if frequency of all characters can become same by one removal | GeeksforGeeks
+56.Find average length of words in a sentence?
+57.Arrange sentences based on number of words.
+58.Given a sentence print words as dictionary order?
+59.Given a sentence print words based on the length(word with less length should come first)?
+
+1. Rearrange characters in a string such that no two adjacent are same
+2. Longest Palindromic Substring | GeeksforGeeks
+3. Given two strings, find if first string is a subsequence of second
+4. Lower case to upper case.
+5. Given a sequence of words, print all anagrams together | Set 2
+6. Anagram Substring Search
+7. Check if binary representations of two numbers are anagram
+8. Find all palindromic sub-strings of a given string
+9. Print all palindromic partitions of a string
+10.Length of Longest Balanced Subsequence
+11.Word Wrap problem ( Space optimized solution )
+12.Print shortest path to print a string on screen
+13.Possibility of moving out of maze
+14.Program to generate all possible valid IP addresses from given string
+15.Program to validate an IP address
+16.Program to check for a Valid IMEI Number
+17.Program for credit card number validation
+18.Count number of substrings with exactly k distinct characters | GeeksforGeeks
+19.Add two binary strings | GeeksforGeeks
+20.Find maximum depth of nested parenthesis in a string | GeeksforGeeks
+21.Given two strings, find if first string is a subsequence of second | GeeksforGeeks
+22.Check whether a given string is an interleaving of two other given strings | GeeksforGeeks
+23.A Program to check if strings are rotations of each other or not | GeeksforGeeks
+24.Number of distinct permutation a String can have | GeeksforGeeks
+25.Check if two given strings are isomorphic to each other | GeeksforGeeks
+26.All combinations of strings that can be used to dial a number | GeeksforGeeks
+27.Check if two strings are k-anagrams or not | GeeksforGeeks
+28.Find largest word in dictionary by deleting some characters of given string | GeeksforGeeks
+29.Convert a sentence into its equivalent mobile numeric keypad sequence | GeeksforGeeks
+30.Group words with same set of characters | GeeksforGeeks
+31.Length of the longest substring without repeating characters
+32.
+
+Applied AI:
+First Non-repeating character in a string
+Print all anagrams in a list of words
+Decode Ways: Problem Statement [Leetcode]
+Longest Common Prefix: Problem Statement [Leetcode]
+Reorganize String: Problem Statement [Leetcode]
+Sort Characters By Frequency
+check if strings are rotations of each other or not
+Find all distinct palindromic sub strings of a given string
+
+GS:
+String Manipulations -Find First Repeated, First Non-Repeated, Last Repeated, Last Non-Repeated, Most Repeated Number
+23.Write a program to print run length or compression of a string eg: 'abcabcd' //output: a2b2c2d1
+24.Write a program to check anagram of a word is Palindrome or not?
+25.First unique character in a string
+26.Reverse words in a given string
+27."Find the longest sub string and return its start index and length
+28.E.g,: input = ""abbbccda""
+output = [1,3]
+Testcases were
+1) input = """", output = [-1,0]
+2) input = ""100001011"", output = [1,4]
+2) input = ""aabbbbbCDaA"", output = [2,5] "
+
+29."Position of robot after given movements
+Given a robot which can only move in four directions, UP(U), DOWN(D), LEFT(L), RIGHT(R). Given a string consisting of instructions to move. Output the co-ordinates of robot after the executing the instructions. Initial position of robot is at origin(0, 0).
+Input : move = ""UDDLRL"" 
+Output : (-1, -1)
+Input : move = ""UDDLLRUUUDUURUDDUULLDRRRR""
+Output : (2, 3)"
+49."Question 2: Find the longest sub string and return its start index and length.
+
+Input Given: aabbbbbccd
+Output: [2,5]
+========================================================================================================
+LL:
+1. Create a LL. AddStart, AddAfter, AddLast, DeleteStart, DeleteAfter, DeleteEnd.
+2. Reverse a LL 
+3. Revesrse a part of a linked list
+4. Detection of Loop in a Linked List | GeeksforGeeks (Amazon)
+5. Remove loop in LL
+6. Make a loop at k-th position in a linked list | GeeksforGeeks
+7. Swap adjacent elements in a LL
+8. Find the middle of a given linked list | GeeksforGeeks
+8. Find whether a LL is palindrome or not?
+10.Delete a LL.
+11.Find length of a LL(Recursive and iterative)
+12.Search an element in a link list(recursve and iterative)
+13.Flattening a Linked List | GeeksforGeeks (Amazon)
+14.Swap nodes in a linked list without swapping data | GeeksforGeeks
+15.Count the number of times a given int occurs in a Linked List | GeeksforGeeks
+16.Compare two strings represented as linked lists | GeeksforGeeks
+17.Find smallest and largest elements in singly linked list | GeeksforGeeks
+18.Remove duplicates from a sorted linked list | GeeksforGeeks
+19.Move last element to front of a given Linked List | GeeksforGeeks
+20.Identical Linked Lists | GeeksforGeeks
+21.Print the alternate nodes of linked list | GeeksforGeeks
+22.Delete alternate nodes of a Linked List | GeeksforGeeks
+
+
+1. Check if a linked list of strings forms a palindrome | GeeksforGeeks
+2. Insert a whole linked list into other at k-th position | GeeksforGeeks
+3. Make middle node head in a linked list | GeeksforGeeks
+4. Rearrange a linked list such that all even and odd positioned nodes are together | GeeksforGeeks (Amazon)
+5. Merge two sorted linked lists | GeeksforGeeks (Amazon)
+6. Sort a linked list of 0s, 1s and 2s | GeeksforGeeks
+7. Multiply two numbers represented by Linked Lists | GeeksforGeeks (Amazon)
+8. Add 2 singly LL.
+9. Add 1 to a number represented as linked list | GeeksforGeeks (Amazon)
+10.Split a Linked List
+11.Merge two sorted Linked Lists to form a new Sorted Linked List
+12.Add two numbers represented by linked lists
+13.Find intersection of two linked lists
+14.Find 'n' th node from end of Linked List
+15.
+
+Applied AI:
+1. Find Kth Node from end of linked list 
+Remove Nth node from End of a linked list
+Palindrome Linked List
+Reverse K alternative nodes in a linked list
+Split a Circular Linked List into two halves
+Merge Two Sorted Linked Lists
+Union and Intersection of two Linked Lists
+
+32.Intersection Point in Y Shapped Linked Lists
+========================================================================================================
+Stack:
+Get Minimum Element from Stack in Constant O(1) time complexity
+Next greater element (use of stack)
+Check for balanced parentheses in an expression | GeeksforGeeks
+Implement queue using stack
+Implement two stacks in one array | GeeksforGeeks
+How to get minimum element from Stack every time in O(1) time
+Sort a stack using Recursion
+
+Queue:
+1. Implement Stack using Queues | GeeksforGeeks (Amazon)
+
+Applied AI:
+3. Reverse a stack using recursion
+4. Implement two stacks in single array
+5. Petrol Filling Problem
+6. 	Trapping Rain Water: Problem Statement [Leetcode]
+========================================================================================================
+
+Tree:
+1. A program to check if a binary tree is BST or not | GeeksforGeeks (Amazon)
+2. Extract Leaves of a Binary Tree in a Doubly Linked List | GeeksforGeeks (Amazon)
+3. Print level order traversal line by line |  GeeksforGeeks (Amazon)
+4. Root to leaf path sum equal to a given number | GeeksforGeeks (Amazon)
+5. Boundary Traversal of binary tree | GeeksforGeeks (Amazon)
+6. Convert a given tree to its Sum Tree | GeeksforGeeks (Amazon)
+7. Print Left View of a Binary Tree | GeeksforGeeks (Amazon)
+8. Maximum width of a binary tree | GeeksforGeeks (Amazon)
+9. Determine if a binary tree is height-balanced | GeeksforGeeks (Amazon)
+10.Convert a given Binary Tree to Doubly Linked List | GeeksforGeeks (Amazon)
+11.Print nodes at k distance from root iteratively | GeeksforGeeks (Amazon)
+12.Check if two trees are Mirror | GeeksforGeeks (Amazon)
+13.	
+
+34.How to determine if a binary tree is height-balanced?
+35."Binary search tree, implement PUT and CONTAIN methods (and Order traversal method is slightly wrong, fix it)."
+
+Applied AI:
+1. Count number of nodes in the binary tree
+2. Check if two trees are identical or not
+3. Level Order Tree Traversal
+4. Print Level order traversal in spiral form 
+5. Convert a Binary Tree into its Mirror Tree
+6. Print Ancestors of a given node in Binary Tree
+7. Find Lowest Common Ancestor in a Binary Search Tree
+8. Print Lowest Common Ancestor in a Binary Tree
+9. Children Sum Property in a Binary Tree
+10.count leaf nodes in a binary tree
+11.Construct a binary tree from inorder and postorder traversals
+12.Convert a given tree to its Sum Tree
+13.Find Diameter of a Binary Tree
+14.Convert a given Binary Tree to Doubly Linked List
+15.Vertical Traversal of binary tree
+16.Search in a Binary Search Tree [Leet code]
+17.Binary Tree Right Side View: Problem Statement [Leetcode]
+18.Kth Smallest Element in a BST: Problem Statement [Leetcode]
+
+55.Mirror image of a binary tree(Data-structures)
+========================================================================================================
+Recursion:
+1. Sum of array elements using recursion | GeeksforGeeks
+2. Print fibonacci series or find fibonacci number.
+3. 
+
+========================================================================================================
+Divide & Conquer:
+1. Count Inversions in an array
+2. Calculate pow(x, n)
+3. The Skyline Problem using Divide and Conquer algorithm
+4. Maximum Subarray Sum using Divide and Conquer algorithm
+5. Find closest number in array
+6. Find a Fixed Point (Value equal to index) in a given array
+7. Find a peak element(Limitatiom : Returns only one peak elements not all) -->
+8. Majority Element in a sorted array
+9. Find the number of zeroes
+10.Number of days after which tank will become empty
+11.Square root of an integer
+12.Find cubic root of a number
+13.Iterative Tower of Hanoi
+14.Iterative Tower of Hanoi
+15.Collect all coins in minimum number of steps
+16.Minimum number of jumps to reach end(Method 1 --> Naive recursio  approach) (Method 2 --> DP) | GeeksforGeeks
+
+========================================================================================================
+DP:
+https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+1. DP : Minimum jumps to reach end of array (Dynamic Programming)
+2. DP : Longest Increasing Subsequence | GeeksforGeeks (Amazon)
+3. DP : 0-1 Knapsack Problem) | GeeksforGeeks (Amazon)
+4. DP : Longest Common Subsequence | GeeksforGeeks(Amazon)
+5. DP : Egg Dropping Puzzle | GeeksforGeeks(Amazon)
+6. DP : Edit Distance | GeeksforGeeks(Amazon) --> related to string seems normal question
+7. DP : Maximum Length Chain of Pairs | GeeksforGeeks (Amazon)
+8. DP : Maximum Sum Increasing Subsequence | GeeksforGeeks (Amazon)
+9. DP : Find the fibonacci number.
+10.DP : Snake Ladder gmae
+11.DP : Weighted Job Scheduling / Sequencing (Prog Everyday)
+12.DP : Cutting a rod into pieces to maximize Profit (Prog Everyday)
+13.DP : Subset Sum Problem (Prog Everyday)
+14.DP : Coin change problem (Prog Everyday)
+15.DP : Longest Palindromic Subsequence and it's Length (Prog Everyday)
+16.DP : Longest Common Subsequence Dynamic Programming (Prog Everyday)
+17.DP : Integer partition / Coin Change Problem (Prog Everyday)
+
+Applied AI:
+Largest sum contiguous sub array 
+Longest Palindromic sub sequence
+Coin Change Problem
+Minimum Cost path Problem
+Longest Increasing Subsequence 
+Rod cutting Problem
+Longest Palindromic Substring: Problem Statement [Leetcode]
+Longest Valid Parentheses
+========================================================================================================
+
+Graph:
+1. Depth First Traversal for a Graph | GeeksforGeeks(Amazon)
+2. Prim's Algorithm for Minimum Spanning Tree | GeeksforGeeks(Amazon)
+3. Detect Cycle in a Directed Graph | GeeksforGeeks (Amazon)
+4. Detect cycle in an undirected graph | GeeksforGeeks (Amazon)
+
+40.Write a program to implement Breadth First Search(BFS) of a tree
+41.Write a program to implement Depth First Search(DFS) of a tree
+
+========================================================================================================
+Backtracking:
+1. Write a Program for N Queen Problem
+2. Write a Program for Sudoku
+3. Write a Program for Rat in a Maze
+4. Letter Combinations of a phone number: Problem Statement [Leetcode]
+5. Permutations: Problem Statement [Leetcode]
+6. Word Search: Problem Statement [leetcode]
+7. Generate Parenthesis: Problem Statement [Leetcode]
+8. Knight Probability in Chessboard: Practice Problem
+
+========================================================================================================
+
+GS:
+
+30."/**Given the below code. Write a function(ES6 recommended) that loops through all the properties of the Employee and create a comma-seperated string with the values
+   For example:
+        {
+          firstName : ""X"",
+          lastName : ""Y"",
+          project : {
+            id : 1,
+            name : ""ABC""
+          }
+        }
+        should be converted to a string like this ""X, Y, 1, ABC""
+        
+        NOTE: The function shouldnt convert the prototypically inherited properties. For example in below case ""managerId""
+31.*/
+"
+"//Implement a function 'Compose'
+//Compose([a,b,c]) will return a new function which is `a(b(c))`
+
+'use strict';
+
+var chai = require('chai');
+var Mocha = require('mocha');
+var mocha = new Mocha({ui:'bdd'});
+var assert = chai.assert;
+
+//compose function takes in a list of functions and returns which is the composition of each
+function compose(){
+  //TODO - fill this
+}
+
+mocha.suite.emit('pre-require', this,'solution', mocha);
+
+describe('""compose"" Test Suite', function(){
+  function addOne(a){
+    return a + 1;
+  }
+  function timesTwo(a){
+    return a * 2;
+  }
+  
+  it('takes a list of two single arg functions', function(){
+    var actual = compose([addOne, timesTwo])(1);
+    assert.equal(actual, 3, '(1 * 2) + 1 === 3');
+  });
+});
+
+mocha.run(function(){});
+
+//Refer function composition in javascript "
+
+
+53."Scenario:
+You have to make an async call to an api which will return an array of numbers, then display those numbers in one line and then in next line display the sum of those numbers then in next line there will be another button which will refresh the data by calling the api again.
+For example : if you have got {data:[1,2,3,4,5,6]} then sum will be 6+5+4+3+2+1."
+
+Non Programming:
+1.How to check a class is Singleton by using only objects
+2.Develop an application with Java and Spring boot (End to End). On paper
+3.Associations in Database tables
+4.Write code for customized ArrayList
+     Which works exactly same as ArrayList in Java
+     only add and get methods
+     with complete access modifiers and any variables needed
+5.You have a site which has thousands of records you have to fetch that data in chunks or small parts.
+6.Define life cycle methods of each component based on the execution of this program?
+7.how we will show spinner after clicking this button?
+8.Implement same scenario using redux?
+9.How will you implement async call in redux?
+10.What are middle wares and why do we use them?
+11.I have mentioned redux thunk as middle ware so i have been asked how think work internally?
+12.Pure Components and how to update pure components?
+13.Return type of promise and return data from promises used for making asyc call?"

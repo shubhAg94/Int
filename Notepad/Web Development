@@ -1,0 +1,222 @@
+
+--avinashchandra.asansol@gmail.com Mindtree@246
+
+HTML:
+1. What is doctype? It is an element or tag?
+2. What happens if I won't write doctype?
+3. If won't write doctype, will HTML5 API will work or not?
+5. Tell some new HTML tags.
+6. What is semantic tag? Use and example of semantic tag?
+7. Before HTML5 do we have this concept of semantic tag? 
+9. What happens if I write Footer tag before Header tag?
+10.Web optimization techniques? --Pending
+11.What are the HTML5 API's?(Fetch, local storage, session storage, coockies, setTimeout)
+12.What is the different beteen local storage, session storage and coockies. and how to set, get and delete them?
+13.How values are stored in local storage, session storage, coockies.(we stored in key-value pair and both keys and values should be in string)
+14.How to store object in local storage, session storage, coockies(we have to convert object into string with JSON.stringify as everything should be in string).
+15.How to create coockies(document.coockies something like that. generally we don't coockies it is set by the server).
+16.Form tag submit behaviour?
+17.Event Bubbling and event capturing? 
+18.How to acheive event capturing?(possible only while adding addEventListner. Pass third args as true)
+19.What are the phases of event propagation?(The standard DOM Events describes 3 phases of event propagation:[Capturing, Target, Bubbling] check javascriptinfo)
+20.eventPreventDefault and eventPropagation 
+21.How to add JS and CSS in HTML file?
+22.Add Comment in HTML file(<!-- A SAMPLE COMMENT -->)
+23.How do you insert a copyright symbol on a browser page?(&copy; or & #169; ) 
+24.How to create a nested webpage in HTML?(The HTML iframe tag is used to display a nested webpage)  
+25.In which format Local/Seeion storage data stores.(key-value pairs, both should be string)
+26.Can we give width to span?(No it is inline element and for inline elements we can't set width) 
+27.What is SVG? Difference between canvas and SVG?
+28.Where does browser stores local and session storage?
+29.How to find geo location of browser?
+30.Web storage
+31.Web workers
+32.Can we have multiple header tags and what is the use of header tags
+33.What are the diff tags introduces in html5
+34.css2 vs css3
+35.What is BOM?
+36.Diffrence between attribute and property
+37.Can footer have header tag? --> https://stackoverflow.com/questions/26357007/can-footer-have-header-tag
+============================================Answer added till here=============================================
+
+
+==============================================================================================================
+
+CSS:
+1. Gradient, grid.
+2. Difference between flexbox and grid?
+3. Differnece between display: none and visiblity: hidden
+4. Centering the  elements(Put Div into center.)
+5. bootstrap grid layout
+7. Box-model
+8. Media query,breakpoint, use of only in media query
+9. how to select second span in a div containing 3 spans
+10.Transform and transition
+11.Margin collapsing
+15.can we give width to span?
+16.Margin auto?
+17.Why should we write script tag before the end of body tag? Is there any other way apart from this to delay JS to load?-->(async or defer attribute we have to use in script tag)
+18.How browser applies css to html page?(Step-1 HTML and CSS Dom will be created. Step-2 Start creating layout. Step-3 Applying CSS to the elments)
+19.Default size of font in the browser. 16px
+20.How to add a modal or dialog on a page using CSS? and also add popup on edit buttons of a table using CSS.
+21.How to create a spinner?
+22.How to create a div with same height as body(means both 100%) [https://stackoverflow.com/questions/47727949/making-div-background-same-height-as-body]
+23.Where should we give "box-sizing"? at body tag or inside * .
+24.CSS Themes
+25.Directive in SASS?
+
+====================================================================================================
+
+JS:
+============================================================================================================================
+0.How to compare two dates.
+Why we use Object.Create? --> For prototypal inheritance
+Which inheritace we will use classical(With passing this with call) or prototypal and why?
+How to implement our own customized ToString() method for our objects?
+Jobqueueis FIFO or LIFO.
+Benefits of using strict
+Compare two same objects(student1 === student2)
+use of typeof in TS
+Difference between string and String?
+Why we need type safety? - 20+'10' = '30'
+How to achieve Web Accessibility?
+What is the difference between new Array() and [].
+1. Difference between querySelector and getelementBy(any performance or any other difference).
+2. Array.from
+3. Debouncing
+4. Throttling 
+6. Diif between promise and callback. 
+9. Diff between promise and observable.
+8. Diff between promise.all and Promise.allSettled
+9. Diff between promise and async and await.
+10.Why script tag should be right before the closing body tag?
+11.How can you handle this case that a user visits your page which has Javascript turned off?
+13.Benefits of using use strict --> what defualt forgiving behaviours will not work.
+14.Diff between cookies an sessions. 
+15.Do arrow functions have ‘arguments’?
+16.How can we clone objects in javascript without using Object assign means with spread operator.
+17.Is multiple inheritace possible in javascript or typescript. Yes in Javascript with call(replace this object of one constructor function to other constructor functions with the help of call, apply)
+18.Should we use innerHTML in javascript?
+19.What is the best way to clone a object deep&shallow(const deepClone = JSON.parse(JSON.stringify(nestedObject));)(https://www.samanthaming.com/tidbits/70-3-ways-to-clone-objects/)
+20.What is execution context in JS.
+22.u need to validate a form which has multiple skills (java/.net/angular etc in seperate checkbox where atleast one should be selected)
+how will you create such form
+26.Arrow function
+29.write a function to increment the counter using closure
+30.diff between foreach and for?
+31.diff between foreach and map?
+33.map vs filter
+34.find only keys in array of objects.
+35.function hoisting
+37.apply, call and bind
+39.typeOf()
+40.delete
+41.How would you use a closure to create a private counter?
+42.freeze and seal in objects.
+43.Function currying
+44.what is pure function.
+45.how to stop settimeout and setInterval.
+46.what are different ways to create object.
+47.how to create functions for array similar to map or filter.
+48.JavaScript is block scope or not ?
+49.how to create class in JavaScript
+51.how to create and access private method of JavaScript object.
+55.microtask(Promise-->JobQueue) vs macrotask(CallbackQueue --> setTimeout, setInterval,fetch)
+56.write code to copy array using map & filter
+57.write a function that will be available to all strings.
+59.script tag defer & async(related to loading of JS file HTML5 --> attribute of script tag)
+60.iterator and generator function
+61.demerit of closure 
+62.how to achive Singleton in javascript
+63.rest operator vs spread operator
+65.Get month, day name from a date string in JS(need to map -->write helper method or extend the Date object(add that method in Date prototype))
+https://stackoverflow.com/questions/1643320/get-month-name-from-date
+66. How to open PDF in new browser window
+67.Find difference between two date objects.
+if({}) will be true or false
+===========================================================================================================================
+Angular:
+1. How to access html elements in ts file?@ViewChild
+2. How to access html elements of parant in chile and vice-versa.
+3. [ngModelOption] check if using twoway binding([(ngModelOption)]) under form tag
+4. What is redux and how to use it.
+5. Global error handling in angular.
+6. How many status codes are there for http requests.
+7. Which test framework do you use for angular unit testing.
+8. Implement ctrl and shift button selection on a ul li list in angular.(ctrl->multiple selection, shift-->multiple selection with starting and end postion like windows)
+
+11.
+12.Forms in angular
+13.Why services in angular are called as singleton?
+14.Directive VS component
+15.Bootstrapping angular application
+16.NgModule --> Why we need to use this.
+17.Inbult directives in angular
+18.How to create custom pipe. and name few built in pipes you used?
+19.HttpClient methods
+20.Promise vs Observable
+
+22.elementRef and templateRef
+23.dynamic component loading using component factory resolver
+24.Component interaction --> possible using @Input and @Output
+25.AOT and JIT
+26.How to debug bundled files?
+27.How to change color of a table 2nd column based on first column condition?
+28.ngModel, ngClass, ngStyle
+29.
+30.minification
+31.
+32.
+33.Can we use onClick instead of (click) in angular?
+34.entry components and bootstrap
+35.life cycle hooks. on click of button which life cycle hook is called and when is ngOnDestroy called?
+36.lazy loading
+37.
+38.diff between dev dependencies and dependencies in package.json
+39.routerlink and routeroutlet
+40.diff ways to create component
+41.
+42.
+43.How routing happens
+44.forkjoin, mergemap, switchmap, concatMap, flatMap.
+45.create custom directives.
+46.angular CLI
+47.what are the different operators you used in rx-js redux state control.
+48.how to do cross componenet talk using  redux
+49.u need to validate a form which has multiple skills (java/.net/angular etc in seperate checkbox where atleast one should be selected)
+how will you create such form
+50.what is the difference b/w service/factory/provider
+51.what is interceptors in Angular
+52.how u will protect a route in angular
+53.Where do you store JWT token
+54.
+55.
+56.what are the different ways of injecting a service in angular
+57.Diffrence between attribute and property
+58.Difference between proprty binding and attribute binding
+59.how to refresh view of a component
+suppose we have 3 component(A, B ,C) with relationship grandparent parent child ,
+I want to refresh component component B without doing anyting with A and C how will we do that? 
+60.what are decoraters in angular
+61.how to pass data in different component with out relationship and without using service.
+62.I want to land to the same page whr i was before the logout, how can i achive that?
+63.difference between decorator and annotation
+64.what is meta data
+65.what is tree shaking 
+66.
+67.behaviourSubject vs subject
+68.
+69.
+70.how to isloate scope in directive
+72.how to do custom validation(how to write our own custom validator)
+73.What custom pipes and directives you have used in your project.
+74.run vs config 
+75.Lifecycle hooks in case of parent child relationship
+=====================================================================================================================
+Typescript:
+1. arguments and this are available in typescript function?
+2. 
+======================================================================================================================
+Node:
+1. What is middleware in express. And how to do global error handling in express.
+2. 

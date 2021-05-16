@@ -1,0 +1,222 @@
+https://github.com/arialdomartini/Back-End-Developer-Interview-Questions
+
+Angular:
+Rxjs
+https://www.learnrxjs.io/
+https://www.freecodecamp.org/news/angular-rxjs-in-depth/
+
+
+ng-template, ng-content, ng-container, template variable 
+https://www.freecodecamp.org/news/everything-you-need-to-know-about-ng-template-ng-content-ng-container-and-ngtemplateoutlet-4b7b51223691/
+
+https://blog.angulartraining.com/tutorial-the-magic-of-template-reference-variables-3183f0a0d9d1
+
+viewchild, viewchildren
+https://www.freecodecamp.org/news/angular-8-dom-queries-viewchild-and-viewchildren-example/
+https://alligator.io/angular/viewchild-access-component/
+
+
+contentchild, contentchildren:
+https://www.concretepage.com/angular-2/angular-2-4-contentchild-and-contentchildren-example
+one example of contenchild from maximilian
+
+
+Life Cycle hooks:
+https://www.freecodecamp.org/news/angular-lifecycle-hooks/
+
+Hostbinding & Hostlistener:
+https://codecraft.tv/courses/angular/custom-directives/hostlistener-and-hostbinding/
+https://alligator.io/angular/hostbinding-hostlistener/
+
+
+Routing:
+https://codecraft.tv/courses/angular/routing/nested-routes/
+https://codecraft.tv/courses/angular/routing/router-guards/
+https://codecraft.tv/courses/angular/routing/routing-strategies/
+https://medium.com/@jinalshah999/all-about-routing-in-angular-application-23f469a33f89
+https://www.concretepage.com/angular-2/angular-2-4-child-routes-and-relative-navigation-example
+
+Angular 9:
+https://www.youtube.com/watch?v=YosAqbo1rdg
+https://academind.com/learn/angular/angular-in-2019-and-beyond/
+https://www.youtube.com/watch?v=TcdhAxDWWxM
+
+Maximilian:
+https://academind.com/learn/angular/angular-q-a/
+
+Change-Detection:
+https://indepth.dev/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error/
+https://indepth.dev/everything-you-need-to-know-about-change-detection-in-angular/
+
+https://www.freecodecamp.org/news/how-to-create-reusable-loading-indicator-for-angular-projects-d0a11f4631e0/
+https://www.freecodecamp.org/news/how-to-develop-consume-and-publish-an-angular-library-to-npm-2ed608a03c6c/
+https://www.freecodecamp.org/news/how-to-get-the-best-performance-out-of-your-angular-apps-d5132a6c3335/
+https://www.freecodecamp.org/news/how-to-implement-localization-in-angular-using-i18n-tools-a88898b1a0d0/
+https://www.freecodecamp.org/news/how-to-create-themes-for-your-angular-7-apps-using-css-variables-69251690e9c5/
+https://www.freecodecamp.org/news/how-i-built-a-customizable-loading-indicator-with-angular-dynamic-components-a291310f01d/
+
+Observable(rxjs)
+https://blog.angular-university.io/rxjs-higher-order-mapping/
+https://medium.com/angular-in-depth/rxjs-combining-operators-397bad0628d0
+https://medium.com/angular-in-depth/reading-the-rxjs-6-sources-map-and-pipe-94d51fec71c2
+
+
+ErrorS:
+ERROR in TypeError: Cannot read property 'flags' of undefined &
+An unhandled exception occurred: Cannot find module 'tslib'
+You seem to not be depending on "@angular/core" and/or "rxjs". This is an error.
+https://stackoverflow.com/questions/61670882/error-in-typeerror-cannot-read-property-flags-of-undefined
+https://stackoverflow.com/questions/49537782/you-seem-to-not-be-depending-on-angular-core
+
+Fireship Cahnnel
+https://www.youtube.com/watch?v=JeeUY6WaXiA --(reactive Forms)
+https://www.youtube.com/watch?v=I317BhehZKM --(Sharing Data between Components in Angular)
+https://www.youtube.com/watch?v=Np3ULAMqwNo --(Angular Router - The Basics and Beyond)
+https://www.youtube.com/watch?v=_05v0mrNLh0 --(https://www.youtube.com/watch?v=_05v0mrNLh0)
+
+
+Demos with Angular Channel
+https://www.youtube.com/watch?v=-eH2gCGHcGs --(Angular Performance Best Practices - July 2020 (AngularNL))
+
+ng-conf Channel
+https://www.youtube.com/watch?v=2ZFgcTOcnUg --(These ARE the Angular tips you are looking for | John Papa)
+https://www.youtube.com/watch?v=ak3MvMn8u18 --(20 RXJS Operators in 20 minutes | Mike Brocchi & John Niedzwiecki)
+https://www.youtube.com/watch?v=ewcoEYS85Co --(RxJS Top Ten - Code This, Not That)
+https://www.youtube.com/watch?v=-4cwkHNguXE --(Thinking Reactively: Most Difficult | Mike Pearson)
+https://www.youtube.com/watch?v=Z76QlSpYcck --(Data Composition with RxJS | Deborah Kurata)
+https://www.youtube.com/watch?v=_q-HL9YX_pk --(Mastering the Subject: Communication Options in RxJS | Dan Wahlin)
+https://www.youtube.com/watch?v=XKfhGntZROQ --(RxJS Advanced Patterns – Operate Heavily Dynamic UI’s | Michael Hladky)
+https://www.youtube.com/watch?v=Guvd5BYocYg --(Wrapping it up with Decorators | Nicole Oliver)
+https://www.youtube.com/watch?v=rVDMmlCRvkg --(Use decorator to beat ngOnChanges – Decoupling ngOnChanges | Kern Zhao)
+https://www.youtube.com/watch?v=5VlBaaXO6ok --(Tools for Fast Angular Applications | Minko Gechev)
+https://www.youtube.com/watch?v=ybNj-id0kjY --(Optimizing an Angular application - Minko Gechev)
+https://www.youtube.com/watch?v=LaIAHOSKHCQ --(N Things You Didn’t Know About the Router - Deborah Kurata)
+https://www.youtube.com/watch?v=qGK541P2xII --(No Time for Types - Nick Nisi - JSConf US 2018)
+https://www.youtube.com/watch?v=Mjqf2kkFLy8 --(HTTP headers for the responsible developer by Stefan Judis | JSConf EU 2019)
+https://www.youtube.com/watch?v=8aGhZQkoFbQ --(What the heck is the event loop anyway? | Philip Roberts | JSConf EU)
+https://www.youtube.com/watch?v=JX5GGu_7JKc --(Not Every App is a SPA | Rob Wormald --Ivy)
+https://www.youtube.com/watch?v=lh6n0JxXD_g --(Angular and CSS Grid: Get ready to fall in love | Bill Odom) -- Good for CSS
+https://www.youtube.com/watch?v=q--U25yPTrA --(RXJS Observables in Angular - Ward Bell & Sander Ellis)
+
+
+PluralSight:
+https://www.youtube.com/watch?v=-g2Dat7z2WQ --(Webinar: Angular patterns & best practices with John Papa)
+https://www.youtube.com/watch?v=WdSXDGtd9lY --(Angular Performance Tuning: From 0 to 100)
+
+
+=============================================================================================
+JS:
+https://academind.com/learn/javascript/tricky-parts/
+https://www.youtube.com/watch?v=vn3tm0quoqE --(Async Await)
+https://www.youtube.com/watch?v=Fh0VYI-_uPg --(ES6)
+
+=============================================================================================
+CSS Practise:
+https://www.youtube.com/playlist?list=PLgCTlR71eB4-ZGpajuh01zexg8f9Qd98z --(HTML + CSS Practice)
+
+===============================================================================================
+HTTP : 
+https://www.youtube.com/watch?v=TNlcoYLIGFk --(Headers for Hackers: Wrangling HTTP Like a Pro)
+
+=============================================================================================
+C#:
+https://www.youtube.com/channel/UCzWd8lsefYoh42OCrg6FzuQ
+https://www.youtube.com/watch?v=3wZLewdea4Y&list=PLo80fWiInSIPRB6O3O1H38sWg5mbsexIZ&index=9 ---> Static members
+
+==============================================================================================
+OOAD: Refactoring for software design smells
+https://www.youtube.com/watch?v=cNPH6IPh5yk --DP
+https://www.youtube.com/watch?v=DSGsa0pu8-k --SD
+https://www.youtube.com/watch?v=fMZMm_0ZhK4 --SD
+
+==============================================================================================
+
+Deno.js
+https://academind.com/learn/node-js/denojs-first-look/
+https://www.youtube.com/watch?v=z6JRlx5NC9E&feature=youtu.be&t=73
+
+================================================================================================
+Azure Cloud:
+
+https://www.youtube.com/watch?v=m7Eh5Eu56Dw // AWS vs Azure | Difference Between Microsoft Azure and Amazon AWS | AWS Training | Edureka
+
+https://www.youtube.com/watch?v=2m6iBloeigU&list=PL9ooVrP1hQOHdFketT6JzY-71nBgIu-n0&index=7&t=0s // Microsoft Azure Training Videos(Top 10 Reasons)
+https://www.youtube.com/watch?v=semvMHArn7o // Azure Live-2 | Azure Data Factory | Azure Tutorial for Beginners | Microsoft Azure Training| Edureka
+https://www.youtube.com/watch?v=k0nIxOWyOZA // Cloud Computing Live - 1 | Introduction to Azure | Azure Tutorial | Azure Training | Edureka
+
+https://www.youtube.com/watch?v=tbJWxcjfMpo // Microsoft Azure Storage Overview | Microsoft Azure Training | Microsoft Azure Tutorial | Edureka
+
+https://www.youtube.com/watch?v=kj1iW0ovjEw // Azure Virtual Network Tutorial - 1 | Azure Virtual Machine Tutorial | Azure Training | Edureka Live
+
+https://www.youtube.com/watch?v=rNz3RMbRyXk //Azure Training For Beginners | Image Processing In Azure | Microsoft Azure Tutorial | Edureka Live
+
+https://www.youtube.com/playlist?list=PL9ooVrP1hQOHdFketT6JzY-71nBgIu-n0 // Microsoft Azure Training Videos
+https://www.youtube.com/watch?v=tDuruX7XSac // Azure Full Course - Learn Microsoft Azure in 8 Hours | Azure Tutorial For Beginners | Edureka
+
+https://www.youtube.com/watch?v=dWtwhfefNnc // Azure Load Balancer Explained (internet-facing) - step by step
+https://www.youtube.com/watch?v=bGaPk8HFJQk // Azure Interview Questions And Answers | Azure Tutorial For Beginners | Azure Training | Edureka
+
+https://www.youtube.com/watch?v=gQ5P8WVpj30 //Publishing and consuming messages in Azure Service Bus using .NET Core | Azure Tutorial
+
+=================================================================================================
+
+Devops:
+https://www.youtube.com/watch?v=5QGwtNfYN_I //DevOps Live - 1 | DevOps Tools Tutorial | DevOps Tutorial | DevOps Training | Edureka
+https://www.youtube.com/watch?v=z3sKaUZwy9w //DevOps Live - 2 | Git Tutorial | Learn Git in 15 Minutes | Devops Tools | DevOps Training | Edureka
+
+https://www.youtube.com/watch?v=MOZMw5_fBFA //Azure DevOps Tutorial For Beginners | Azure DevOps CI/CD Pipeline | Edureka
+
+==================================================================================================
+
+Docker:
+https://www.youtube.com/watch?v=MTSfY51geWM // Docker Live - 1 | Docker Tutorial for Beginners | DevOps Tools | DevOps Training | Edureka
+https://www.youtube.com/watch?v=q8nXv56gWms //Create a .Net Core Docker Container and Deploy it to Azure
+https://www.youtube.com/watch?v=gAkwW2tuIqE
+===================================================================================================
+
+IoT:
+https://www.youtube.com/watch?v=_shEm5BbOEw //IoT Live - 1| Understanding the IoT Tech Stack | IoT Tutorial For Beginners | IoT Training | Edureka
+
+https://www.youtube.com/watch?v=xxv0b1DHmU4 //Introduction to Azure IoT | Azure IoT Tutorial For Beginners | Edureka
+
+https://www.youtube.com/watch?v=h0gWfVCSGQQ // IoT Full Course - Learn IoT In 4 Hours | Internet Of Things | IoT Tutorial For Beginners | Edureka
+
+https://www.youtube.com/watch?v=SF8TJZnSIHE //Azure IoT Tutorial for Beginners
+
+https://www.youtube.com/playlist?list=PL9ooVrP1hQOGccfBbP5tJWZ1hv5sIUWJl //Internet of Things - IoT Tutorial for Beginners | Edureka
+
+====================================================================================================
+
+MicroService:
+
+https://www.youtube.com/watch?v=ymcLM-TNk1o //Architecting NET Microservices in a Docker Ecosystem
+
+https://www.youtube.com/watch?v=qYhRvH9tJKw // What is a microservice architecture and it's advantages?
+https://www.youtube.com/watch?v=j1gU2oGFayY // What are microservices really all about? - Microservices Basics Tutorial | Javabrains
+https://www.youtube.com/watch?v=GwafAoXKV8A //Microservices vs API | Differences Between Microservice and API | Edureka
+https://www.youtube.com/watch?v=gfWr2_H39N0 //What are Microservices | Microservices Architecture Training | Microservices Tutorial | Edureka
+https://www.youtube.com/watch?v=tuJqH3AV0e8 //Microservices Full Course - Learn Microservices in 4 Hours | Microservices Tutorial | Edureka
+https://www.youtube.com/watch?v=xuH81XGWeGQ //Microservices Design Patterns | Microservices Architecture Patterns | Edureka
+
+
+MicroService with C# and Asp.Net Core
+https://www.youtube.com/watch?v=RyHDWlIq6vI // Microservice Architecture with ASP.NET Core
+https://www.youtube.com/watch?v=Z9vphGImsas //Microservices Tutorial for Beginners | Building Microservices with ASP.NET Core
+https://www.youtube.com/watch?v=EEwT6y5h09I //Introduction to Microservices
+
+https://www.youtube.com/playlist?list=PLTgRMOcmRb3N1xp_cZ534_NJ8Br3lc6t0 //.NET Core Microservices tutorial (old 2017)
+https://www.youtube.com/playlist?list=PL_jn5jikluSIb_zCANH1K-9A9q4AFtGQG //Microservices in .NET Core and Docker
+https://www.youtube.com/watch?v=MpQkwbq2SZ8 //Create .NET Core Microservice Using Best Practice
+
+
+https://www.youtube.com/watch?v=LDbeiAl5u-k //.NET Microservices with Azure Service Fabric: A real-world perspective | BRK3234
+
+
+====================================================================================================
+
+SS:
+https://www.youtube.com/watch?v=UNUilGw5IbI //Top 10 Soft Skills | Edureka
+https://www.youtube.com/watch?v=DZR6TwvtyVM //Personality Development Class by Mr. DURGA Sir
+=====================================================================================================
+
+https://www.youtube.com/watch?v=Wyhwjh8irq4 //Why Analytics Industry won't be affected by COVID-19 Recession | Data Analytics Training | Edureka

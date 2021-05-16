@@ -1,0 +1,81 @@
+C# operators: (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/)
+1. Operator Overview:
+	Operator precedence
+	Operator associativity
+	Operand evaluation
+2. Arithmetic operators(++,--,%, and others)
+3. Boolean logical operators
+4. Bitwise and shift operators
+5. Equality operators 
+6. Comparison operators
+7. Member access operators and expressions(Member access expression.,[], Null-conditional operators ?. and ?[], Invocation expression (), Index from end operator ^, Range operator ..)
+8. Type-testing operators and cast expression(is operator, as operator, Cast expression, typeof operator)
+9. ?: operator
+10.! (null-forgiving) operator
+11.?? and ??= operators 
+12.=> operator
+13.await operator
+14.nameof expression 
+15.sizeof operator
+16.
+
+Keywords:
+1. yield
+2. var
+3. dynamic
+4. as and is
+5. base(as super in java)
+6. enum
+7. event
+8. lock
+9. out
+10.params
+11.readonly
+12.ref
+13.sealed
+14.sizeof
+15.static
+16.typeof
+17.using
+18.virtual
+19.dynamic
+20.nameof
+21.partial (method)
+22.partial (type)
+
+Concepts:
+1.Type System (https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/)
+2.Nullable reference types(https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
+3.tuple types(https://docs.microsoft.com/en-us/dotnet/csharp/tuples)
+4.Deconstructing tuples and other types(https://docs.microsoft.com/en-us/dotnet/csharp/deconstruct)
+5.Lambda expressions(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)
+6.Properties(https://docs.microsoft.com/en-us/dotnet/csharp/properties)
+7.Indexers(https://docs.microsoft.com/en-us/dotnet/csharp/indexers)
+8.Discards (https://docs.microsoft.com/en-us/dotnet/csharp/discards)
+9.Generics(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/)
+10.Iterators(https://docs.microsoft.com/en-us/dotnet/csharp/iterators)
+11.Delegates(https://docs.microsoft.com/en-us/dotnet/csharp/delegates-overview)
+12.Events(https://docs.microsoft.com/en-us/dotnet/csharp/events-overview)
+13.LINQ(https://docs.microsoft.com/en-us/dotnet/csharp/linq/)
+14.Asynchronous programming(https://docs.microsoft.com/en-us/dotnet/csharp/async)
+15.Pattern Matching(https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching) --> is and swith case with object and string
+16.Write safe and efficient C# code(https://docs.microsoft.com/en-us/dotnet/csharp/write-safe-efficient-code)
+17.Expression Trees(https://docs.microsoft.com/en-us/dotnet/csharp/expression-trees)
+18.Versioning in C#(https://docs.microsoft.com/en-us/dotnet/csharp/versioning)
+
+
+How to (C#):
+https://docs.microsoft.com/en-us/dotnet/csharp/how-to/
+Questions:
+1. What is object? --> Run time memory allocation of non static members of a class is object.
+2. Diff between const and readonly?
+3.
+
+1. Is it always better to use var in c# instead of specific types??
+2. How to make immutable c# class.
+3. String and StringBuilder in C#.
+4. Is await using separate thread?
+
+=========================================================================================================
+.NET CORE : 
+1. Global error handling in .net core.

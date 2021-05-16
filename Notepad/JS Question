@@ -1,0 +1,128 @@
+
+==================================
+div ka content overflow kr rha h.....overflow hata ke ellipsis use kro
+
+is problem ko JS se kr sakte h but bahut complicated hoga and different resolution machines pr kam ni krega
+
+best h css se solve krna.....use 
+
+test-overflow: ellipsis
+overflow: hidden
+maxSize 
+======================================================================================================================
+
+4. We have an array of object, remove duplicate array item from following array?
+   var arr=  [{key1:value1}, {key2:value2}, {key1:value2}, {key2:value1},{key1:value1},{key2:value2}]
+   Duplicate array item: object which has same key and same value
+
+7. Write a function to reverse an array of strings. With and without using array methods. 
+
+9. We have two array of objects having id as a unique key. One is old array and one is new array that may have some new objects but it also could have few objects from old array,  but  with some extra properties added? What we have to do is to return an array that will have all unique elements from both of array, but condition is that if we find duplicates that is in both the arrays then consider enhanced(with some extra properties) object from the new array.
+	Hint --> Create unique map by first adding latest array then add objects from old array only unique(do not add duplicates from old array check if object from old array is alredy added from new array or not. Then loop through the hashMap and print all objects).
+10. Find duplicates from two array of objects.
+	Hint --> first concat both the arrays. Then strat adding each object to hashMap, before adding just check that objetc should not be present in that array.
+
+==============================
+Q.2 Will this be resolved or pending because there is no timer and condition is true for resolve() function. And will console statementr will be printed.
+function test(){
+  return new Promise((resolve,reject)=>{
+    let a = test1();
+    let b = test2();
+    let c = a+b;
+    
+    if(c==3)
+      resolve(c);
+    else
+      reject('error....')
+      
+      console.log(a);
+    console.log(b);
+  })
+}
+
+function test1(){
+  return 1;
+}
+
+function test2(){
+  return 2;
+}
+
+function test3(data){
+  console.log(data*3);
+}
+
+console.log(test());
+test().then(data=>data+5).then(data=>test3(data)).catch(err=>console.log(err));
+==================================================================================================
+
+=============================Asynchronous Promise=================================================
+function test(){
+  return new Promise((resolve,reject)=>{
+    let a = test1();
+    let b = test2();
+    let c = a+b;
+    
+    if(c==3)
+      {
+         setTimeout(()=>resolve(c), 5000);
+      }
+      
+    else
+      reject('error....')
+      
+      console.log(a);
+    console.log(b);
+  })
+}
+
+function test1(){
+  return 1;
+}
+
+function test2(){
+  return 2;
+}
+
+function test3(data){
+  console.log(data*3);
+}
+
+console.log(test());//Q. will this be resolved or pending because there is no timer and condition is true for resolve() function. And will console statementr will be printed.
+test().then(data=>data+5).then(data=>test3(data)).catch(err=>console.log(err));
+========================================================================================================
+
+Local Storsge only showa based on the domain(only domain data)  --> Local Storage is on heap --> once we close browser or tab still data don't erased..means it is stored by the browser somewhere in our filesystem(Somewhere hidden).
+
+// Size of the localstoage for a domain
+        let data = "" ;
+        for(var key in window.localStorage){
+            if(window.localStorage.hasOwnProperty(key)){
+                data += window.localStorage[key];
+            }
+        }
+        console.log( (( data.length * 2 ) / 1024)/1025 + ' MB' );
+		
+In JS all objects are on heap.
+
+Local Storage is kind of file that will provide data to heap of our tab and from there we can access the local storage data.
+
+Web Woeker thread is not allowed by the code executed by secondary thread.
+secondary thread does not have message loop. instead post the message to message queue(like os does) then Main Thread will take it forward.
+
+XHR is always async and use OS thread and not use extra threa of browser and same with File API.
+
+worker thread won't allow to have UI
+worker is browser entity
+
+
+any attribute starts with data-(like data-name) browsers ignores it. Theses are for javascript to use.
+
+Non-xhr --> kills the existing DOM and create new DOM from received from server--> Whole window and UI, JS to be rendered
+
+xhr  --> dont kills the DOM, JS engine wont satrt, it is partial update, add new data in the area, DOM tree does not get created
+
+history API remembers urls but not content
+
+
+
